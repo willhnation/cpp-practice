@@ -17,7 +17,7 @@ struct Node {
  * @param ttl the Time To Live number
  * @param w an std::ostream
 */
-void print_results (int c, std::pair<int,int> p, int ttl, std::ostream& w);
+void print_results (int c, std::pair<int,int> p, int ttl);
 
 /*
  * @param r an std::istream
